@@ -16,7 +16,9 @@
       }
     ],
     "ism_template": {
-      "index_patterns": ["otel-v1-apm-span-*"]
+      "index_patterns": ["otel-v1-apm-span-*"],
+      "priority": 10
     }
   }
 }
+
